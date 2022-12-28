@@ -1,0 +1,8 @@
+sum=0
+count=0
+while count<15:
+ num=int(input("enter any integer:"))
+ sum+=num
+ count+=1
+average=num/15
+print("the average of 15 integer is:",average)
