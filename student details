@@ -1,0 +1,9 @@
+student = {
+    "name": "vamsi",
+    "age": 18,
+    "courses": ["Math", "Physics", "Computer Science"]
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Courses:", ", ".join(student["courses"]))
