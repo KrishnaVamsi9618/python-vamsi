@@ -4,8 +4,8 @@ def countWays(n):
 	res[1] = 1
 	res[2] = 2
 
-	for i in range(3, n + 1):
-		res[i] = res[i - 1] + res[i - 2] + res[i - 3]
+	for i in range(2, n + 1):
+		res[i] = res[i - 1] + res[i - 2]
 
 	return res[n]
 n = 2
